@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-color: #A0522D;
+    color: 	ghostwhite;
+}
+div{
+    /* border: 2px solid black; */
+}
+.shrink{
+    padding: 0 10px;
+}
+.image{
+    max-width: 768px;
+    margin: 0 auto;
+    height: 50vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+p{
+    font-size: 20px;
+    padding: 0 20px;
+}
+h2{
+    margin: 30px 0 15px 0;
+}
+
+/* dots */
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: ghostwhite;
+}
+.threedots{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.next{
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    /* border: 2px solid #FF8C00; */
+    background-color: #FF8C00;
+}
+/* .animate{
+    overflow: hidden;
+    position: relative;
+} */
+/* .try{
+    position: absolute;
+}
+#two{
+    right: -800px;
+}
+#three{
+    right: -1600px;
+} */
